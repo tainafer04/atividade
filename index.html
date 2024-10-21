@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Simples</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+
+  <h1>Cadastro de Usuários</h1>
+
+  <!-- Formulário -->
+  <form id="formCadastro">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <!-- Tabela de cadastros -->
+  <h2>Lista de Cadastros</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaCadastros">
+      <!-- Dados serão adicionados aqui -->
+    </tbody>
+  </table>
+
+  <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>

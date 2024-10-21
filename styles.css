@@ -1,0 +1,46 @@
+/* Estilos bem simples */
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+  }
+  
